@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${fira.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col ">{children}</body>
+      <body className="min-h-full flex flex-col  bg-white ">{children}</body>
     </html>
   );
 }

@@ -2,7 +2,7 @@ export default function Container({ children, className, id, animation }) {
   return (
     <div
       data-aos={animation}
-      className={`flex flex-col justify-center mx-4 lg:mx-22 xl:mx-44 items-center mt-10 lg:mt-20 ${className}`}
+      className={`flex flex-col  mx-4 lg:mx-auto lg:max-w-md lg:w-full items-center justify-center mt-7 mb-7 ${className}`}
       id={id}
     >
       {children}
